@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jane Doe | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="profile.jpg" alt="Portrait of Jane Doe" class="profile-img" />
+    <h1>Jane Doe</h1>
+    <p>Web Developer & Designer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm Jane, a passionate web developer with experience in building modern and responsive websites. I love turning ideas into reality using code.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <img src="project1.jpg" alt="Screenshot of Project One website" />
+          <h3>Project One</h3>
+          <p>A brief description of your project goes here.</p>
+        </div>
+        <div class="project-card">
+          <img src="project2.jpg" alt="Screenshot of Project Two web app" />
+          <h3>Project Two</h3>
+          <p>A brief description of your project goes here.</p>
+        </div>
+        <div class="project-card">
+          <img src="project3.jpg" alt="Screenshot of Project Three dashboard" />
+          <h3>Project Three</h3>
+          <p>A brief description of your project goes here.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p>Email: <a href="mailto:jane.doe@example.com">jane.doe@example.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2024 Jane Doe. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
